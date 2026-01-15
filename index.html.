@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>KABRE électronique</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{font-family:Arial;background:#f5f5f5;margin:0}
+    header{background:#111;color:#fff;padding:15px;text-align:center}
+    nav{display:flex;justify-content:center;gap:20px;margin-top:10px}
+    nav a{color:#fff;text-decoration:none;font-weight:bold}
+    .banner{background:#0a7c3a;color:#fff;text-align:center;padding:40px;font-size:24px;font-weight:bold}
+    .container{padding:20px}
+    .products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+    .card{background:#fff;border-radius:10px;padding:15px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+    .card img{width:100%;border-radius:10px}
+    .card h3{margin:10px 0}
+    .price{color:#0a7c3a;font-weight:bold}
+    .btn{display:block;margin-top:10px;padding:10px;background:#25D366;color:#fff;text-align:center;border-radius:6px;text-decoration:none}
+    .category-section{margin-top:40px}
+    .category-section h2{margin-bottom:15px;color:#111}
+    footer{text-align:center;padding:15px;color:#777;margin-top:40px}
+  </style>
+</head>
+<body><header>
+  <h1>KABRE électronique</h1>
+  <p>Vente d'appareils électroniques • Paiement Mobile Money</p>
+  <nav>
+    <a href="#smartphones">Smartphones</a>
+    <a href="#ordinateurs">Ordinateurs</a>
+    <a href="#accessoires">Accessoires</a>
+    <a href="#televisions">Télévisions</a>
+  </nav>
+</header><div class="banner">
+  Promotions Spéciales : Jusqu'à 20% de réduction sur une sélection d'appareils !
+</div><div class="container">  <!-- SMARTPHONES -->  <div class="category-section" id="smartphones">
+    <h2>Smartphones</h2>
+    <div class="products">
+      <!-- 10 smartphones fictifs -->
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Smartphone A1</h3><p class="price">120 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20le%20Smartphone%20A1%20à%20120%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Smartphone A2</h3><p class="price">130 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20le%20Smartphone%20A2%20à%20130%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Smartphone A3</h3><p class="price">125 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20le%20Smartphone%20A3%20à%20125%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Smartphone A4</h3><p class="price">140 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20le%20Smartphone%20A4%20à%20140%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Smartphone A5</h3><p class="price">135 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20le%20Smartphone%20A5%20à%20135%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Smartphone A6</h3><p class="price">150 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20le%20Smartphone%20A6%20à%20150%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Smartphone A7</h3><p class="price">155 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20le%20Smartphone%20A7%20à%20155%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Smartphone A8</h3><p class="price">160 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20le%20Smartphone%20A8%20à%20160%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Smartphone A9</h3><p class="price">165 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20le%20Smartphone%20A9%20à%20165%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Smartphone A10</h3><p class="price">170 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20le%20Smartphone%20A10%20à%20170%20000%20FCFA">Commander via WhatsApp</a></div>
+    </div>
+  </div>  <!-- ORDINATEURS -->  <div class="category-section" id="ordinateurs">
+    <h2>Ordinateurs</h2>
+    <div class="products">
+      <!-- 10 ordinateurs fictifs -->
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Ordinateur B1</h3><p class="price">350 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20l’Ordinateur%20B1%20à%20350%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Ordinateur B2</h3><p class="price">360 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20l’Ordinateur%20B2%20à%20360%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Ordinateur B3</h3><p class="price">370 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20l’Ordinateur%20B3%20à%20370%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Ordinateur B4</h3><p class="price">380 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20l’Ordinateur%20B4%20à%20380%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Ordinateur B5</h3><p class="price">390 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20l’Ordinateur%20B5%20à%20390%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Ordinateur B6</h3><p class="price">400 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20l’Ordinateur%20B6%20à%20400%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Ordinateur B7</h3><p class="price">410 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20l’Ordinateur%20B7%20à%20410%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Ordinateur B8</h3><p class="price">420 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20l’Ordinateur%20B8%20à%20420%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Ordinateur B9</h3><p class="price">430 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20l’Ordinateur%20B9%20à%20430%20000%20FCFA">Commander via WhatsApp</a></div>
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Ordinateur B10</h3><p class="price">440 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20l’Ordinateur%20B10%20à%20440%20000%20FCFA">Commander via WhatsApp</a></div>
+    </div>
+  </div>  <!-- ACCESSOIRES -->  <div class="category-section" id="accessoires">
+    <h2>Accessoires</h2>
+    <div class="products">
+      <!-- 10 accessoires fictifs -->
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Accessoire C1</h3><p class="price">25 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20l’Accessoire%20C1%20à%2025%20000%20FCFA">Commander via WhatsApp</a></div>
+      <!-- ... jusqu'à C10 -->
+    </div>
+  </div>  <!-- TELEVISIONS -->  <div class="category-section" id="televisions">
+    <h2>Télévisions</h2>
+    <div class="products">
+      <!-- 10 télévisions fictives -->
+      <div class="card"><img src="https://via.placeholder.com/300"><h3>Télévision D1</h3><p class="price">280 000 FCFA</p><a class="btn" href="https://wa.me/22658971766?text=Bonjour,%20je%20veux%20commander%20la%20Télévision%20D1%20à%20280%20000%20FCFA">Commander via WhatsApp</a></div>
+      <!-- ... jusqu'à D10 -->
+    </div>
+  </div>  <div class="category-section" id="livraison">
+    <h2>Livraison</h2>
+    <p>Livraison disponible à Ouagadougou et dans les principales villes du Burkina Faso. Retrait possible sur place.</p>
+  </div></div><footer>
+  © 2026 KABRE électronique • Ouagadougou • Paiement Mobile Money accepté (Orange, Moov, Telecel)
+</footer></body>
+  </html>
